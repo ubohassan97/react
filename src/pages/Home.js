@@ -4,7 +4,7 @@ export default function Home() {
     <div>
         <Header />
       {" "}
-      <div>home</div>
+      <div>home </div>
       
     </div>
   );
