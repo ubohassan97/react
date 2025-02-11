@@ -5,7 +5,7 @@ export default function Home() {
         <Header />
       {" "}
       <div>home 1</div>
-      
+      <div>home 1</div>
     </div>
   );
 }
