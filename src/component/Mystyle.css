@@ -1,0 +1,33 @@
+/* header */
+.MyHeader {
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: #bdf6f8;
+  margin: 10px 3px;
+  padding: 20px 0px;
+}
+
+.Header_navlink,
+.Register-nav,
+.Login-nav {
+  margin: 5px;
+  text-decoration: none !important ;
+  padding: 10px 10px;
+  font-size: 22px;
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.Header_navlink:hover .Register-nav:hover,
+.Login-nav:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline !important;
+}
+
+.active {
+  background-color: rgba(0, 6, 51, 0.2);
+  color: white !important;
+  border-radius: 15px;
+}

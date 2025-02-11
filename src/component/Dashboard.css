@@ -1,0 +1,96 @@
+/* topbar */
+.Topbar {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 10px 1px rgb(173, 173, 173);
+}
+
+.Topbar .link-item {
+  text-decoration: none;
+  background-color: aqua;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* --Sidebar--- */
+
+.Sidebar {
+  height: 100vh;
+  background-color: rgba(215, 230, 235, 0.3);
+  margin-top: 3px;
+  width: 20%;
+  padding: 10px;
+  border-right: 1px rgb(82, 204, 241) solid;
+  box-shadow: 1px 2px 15px 1px;
+}
+
+.Sidebar .link-item {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 5px;
+}
+/* table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f7f8;
+}
+
+th,
+td {
+  border: 1px solid #a0c8cf;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+th {
+  background-color: #74afb9;
+  color: #fff;
+}
+
+td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* -------------------Sidebar------------------------- */
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.Sidebar .link-item {
+  color: black !important;
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 15px;
+
+}
+
+.Sidebar .link-item:hover{
+  color: rgb(53, 53, 172) !important;
+  background-color: #e4ebec;
+}
+
+.active{
+  color: rgb(0, 0, 0) !important;
+  font-weight: 600;
+  background-color: #a0e7f1;
+}
+
+
+.fa-solid{
+  font-size: 22px;
+  padding-right: 5px;
+  color: rgb(44, 44, 44);
+}
